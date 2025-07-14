@@ -118,7 +118,7 @@ export default function Portfolio() {
 <p>
                     Network Security Engineer Intern at{' '}
                     <a 
-                      href="https://axs.com" 
+                      href="https://axs.sa/" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="text-green-400 hover:text-green-300 hover:underline transition-all duration-200 cursor-pointer"
