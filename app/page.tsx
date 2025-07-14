@@ -332,7 +332,7 @@ export default function Portfolio() {
               },
               {
                 category: "Active Directory Pentesting",
-                icon: <Code className="h-6 w-6" />,
+                icon: <Database className="h-6 w-6" />,
                 skills: ["bloodhound", "impacket tools"],
               },
               {
@@ -342,7 +342,7 @@ export default function Portfolio() {
               },
               {
                 category: "File Systems & Disk Analysis",
-                icon: <Briefcase className="h-6 w-6" />,
+                icon: <Terminal className="h-6 w-6" />,
                 skills: ["WinHex", "e10Editor", "seulthTools", "EricZimmerman"],
               },
             ].map((skillGroup, index) => (
