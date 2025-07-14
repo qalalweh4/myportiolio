@@ -116,16 +116,16 @@ export default function Portfolio() {
             
           </div>
 <p>
-                    Network Security Engineer Intern at{' '}
-                    <a 
-                      href="https://axs.sa/" 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      className="text-green-400 hover:text-green-300 hover:underline transition-all duration-200 cursor-pointer"
-                    >
-                      Axelerated Solutions
-                    </a>
-                  </p>
+  Network Security Engineer Intern at{' '}
+  <a 
+    href="https://axs.sa/" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="text-green-400 hover:text-green-300 underline hover:underline transition-all duration-200 cursor-pointer"
+  >
+    Axelerated Solutions
+  </a>
+</p>
           <p className="text-green-400/60 mb-8"></p>
           <div className="flex justify-center space-x-4">
             <Button
