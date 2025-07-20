@@ -218,6 +218,14 @@ export default function Portfolio() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
             {[
               {
+                name: "eCPPT - eLearnSecurity Certified Professional Penetration Tester",
+                issuer: "ine",
+                date: "19/7/2025",
+                image: "/images/eCPPT.png",
+                credentialUrl: "https://certs.ine.com/36cd4d1b-e6d3-4ff7-969f-1e52aed5e35b#acc.bstDNSzG",
+                description: "Active Directory penetration testing, vulnerability assessment, and exploitation techniques",
+              },
+              {
                 name: "CRTA - Certified Red Team Analyst",
                 issuer: "CyberWarFare Labs",
                 date: "14/7/2025",
