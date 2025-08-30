@@ -170,7 +170,7 @@ export default function Portfolio() {
                   description: "Comprehensive study of software development principles, algorithms, and system design.",
                   achievements: [
                     "KFRUPM CTF #1 (2025)",
-                    "CoLeader of Cybersecurity Committee",
+                    "Leader of Cybersecurity Committee",
                     "Computer Club Core Member",
                     
                   ],
@@ -259,6 +259,17 @@ export default function Portfolio() {
                 credentialUrl: "https://www.credly.com/badges/37ddbf9e-a799-453b-be59-1a66d3965b2c/public_url",
                 description: "Blue team operations, incident response, and security monitoring",
               },
+
+              {
+                name: "CTF Winner",
+                issuer: "KFUPM ",
+                date: "13/02/2025",
+                image: "/images/kfupmFirst.png",
+                credentialUrl: "https://www.linkedin.com/in/abdullah-b-alqalalweh",
+                description: "First Place in KFRUPM CTF #1 2024",
+
+              },
+
               {
                 name: "SAL1 - Security Analyst Level 1",
                 issuer: "TryHackMe",
