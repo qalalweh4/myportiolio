@@ -218,6 +218,16 @@ export default function Portfolio() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
             {[
               {
+                name: "eCTHP - eLearnSecurity Certified Threat Hunting Professional",
+                issuer: "ine",
+                date: "30/8/2025",
+                image: "/images/eCTHP.png",
+                credentialUrl: "https://certs.ine.com/7e7e9f90-cd40-416a-a587-04b50a746ed8#acc.Qmy5pSC7",
+                description: "Threat hunting methodologies, tools, and techniques",
+              
+
+              },
+              {
                 name: "eCPPT - eLearnSecurity Certified Professional Penetration Tester",
                 issuer: "ine",
                 date: "19/7/2025",
