@@ -110,7 +110,18 @@ export default function Portfolio() {
           <div className="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-6 mb-8">
             <div className="flex items-center space-x-2 text-green-400">
               <Zap className="h-5 w-5" />
-              <span>Hunting threats, analyzing malware, uncovering digital evidence</span>
+              <span className="club-role">
+  President of{" "}
+  <a
+    className="club-link"
+    href="https://www.linkedin.com/company/kfupm-cybersecurity-club"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <u>KFUPM Cybersecurity Club</u>
+  </a>
+</span>
+
               
             </div>
             
