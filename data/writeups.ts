@@ -2,27 +2,50 @@ export interface Writeup {
   id: string
   title: string
   description: string
-  category: "CTF" | "Research" | "Vulnerability" | "Tutorial" | "Other"
+  category: "CTF" | "Research" | "Forensics" | "Threat Hunting" | "Other"
   date: string
   tags: string[]
-  fileUrl?: string   // path inside /public, e.g. "/writeups/my-report.pdf"
-  externalUrl?: string  // link to HackMD, GitHub, blog, etc.
+  githubUrl?: string
+  externalUrl?: string
 }
 
 const writeups: Writeup[] = [
-  // ── Add your writeups here ──────────────────────────────────────────────
-  //
-  // Example:
-  // {
-  //   id: "1",
-  //   title: "PicoCTF 2025 — Buffer Overflow 3",
-  //   description: "Exploiting a stack-based buffer overflow to hijack control flow.",
-  //   category: "CTF",
-  //   date: "2025-04-10",
-  //   tags: ["pwn", "buffer-overflow", "pico"],
-  //   fileUrl: "/writeups/picoctf-bof3.pdf",   // drop the PDF in /public/writeups/
-  //   // externalUrl: "https://hackmd.io/...",  // or link externally
-  // },
+  {
+    id: "1",
+    title: "KFUPM CTF Writeups",
+    description: "Collection of challenge writeups from KFUPM CTF competitions, covering a range of categories including pwn, web, forensics, and reverse engineering.",
+    category: "CTF",
+    date: "2025-02-13",
+    tags: ["kfupm", "ctf", "writeups", "pwn", "web"],
+    githubUrl: "https://github.com/qalalweh4/KFUPM-CTF-Writeups",
+  },
+  {
+    id: "2",
+    title: "CybernightsForensics2025",
+    description: "Solving forensics challenges from Cybernights 2025 CTF — disk imaging, memory analysis, and network forensics.",
+    category: "Forensics",
+    date: "2025-01-01",
+    tags: ["forensics", "ctf", "cybernights", "2025", "memory"],
+    githubUrl: "https://github.com/qalalweh4/CybernightsForensics2025",
+  },
+  {
+    id: "3",
+    title: "Digital Forensics Lab",
+    description: "Hands-on digital forensics lab exercises covering evidence acquisition, file system analysis, artifact recovery, and chain of custody.",
+    category: "Research",
+    date: "2025-01-01",
+    tags: ["forensics", "lab", "disk-analysis", "artifacts"],
+    githubUrl: "https://github.com/qalalweh4/DigitalForensicsLab",
+  },
+  {
+    id: "4",
+    title: "The Eternel Lore Of Kiana",
+    description: "CyberTalents Threat Hunting CTF — tracking adversary behaviour, hunting IOCs, and reconstructing the full attack chain.",
+    category: "Threat Hunting",
+    date: "2025-01-01",
+    tags: ["threat-hunting", "ctf", "cybertalents", "ioc", "siem"],
+    githubUrl: "https://github.com/qalalweh4/The-Eternel-Lore-of-Kiana",
+  },
 ]
 
 export default writeups
