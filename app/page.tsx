@@ -105,7 +105,7 @@ export default function Portfolio() {
             </span>
           </h1>
 
-          <p className="text-xl md:text-2xl mb-8 text-green-400/80">Junior Software Engineering Student</p>
+          <p className="text-xl md:text-2xl mb-8 text-green-400/80">Senior Software Engineering Student</p>
 
           <div className="flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-6 mb-8">
             <div className="flex items-center space-x-2 text-green-400">
