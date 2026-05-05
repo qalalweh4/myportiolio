@@ -32,12 +32,7 @@ export default function HomePage() {
           <User className="w-14 h-14 text-white" />
         </div>
 
-        {/* Status badge */}
-        <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-green-500/10 border border-green-500/20 text-green-400 text-sm font-medium mb-6">
-          <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
-          Available for opportunities
-        </div>
-
+        
         {/* Name */}
         <h1 className="text-5xl md:text-7xl font-bold mb-4 leading-[1.1] tracking-tight">
           <span className="bg-gradient-to-r from-blue-400 via-violet-400 to-cyan-400 bg-clip-text text-transparent">

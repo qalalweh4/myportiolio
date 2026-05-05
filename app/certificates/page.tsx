@@ -4,6 +4,7 @@ import Image from "next/image"
 
 const certificates = [
   {
+    
     name: "eCTHP",
     fullName: "eLearnSecurity Certified Threat Hunting Professional",
     issuer: "INE Security",
