@@ -39,12 +39,12 @@ const writeups: Writeup[] = [
   },
   {
     id: "4",
-    title: "The Eternel Lore Of Kiana",
+    title: "ELK Elastic Lab",
     description: "CyberTalents Threat Hunting CTF — tracking adversary behaviour, hunting IOCs, and reconstructing the full attack chain.",
     category: "Threat Hunting",
     date: "2025-01-01",
     tags: ["threat-hunting", "ctf", "cybertalents", "ioc", "siem"],
-    githubUrl: "https://github.com/qalalweh4/The-Eternel-Lore-of-Kiana",
+    githubUrl: "https://github.com/qalalweh4/ELK-Elastic-Lab",
   },
   {
     id: "5",
