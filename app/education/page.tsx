@@ -3,7 +3,7 @@ import { GraduationCap, Award, BookOpen } from "lucide-react"
 const education = [
   {
     degree: "Computer Networks Concentration",
-    school: "King Fahd University",
+    school: "King Fahd University of Petroleum and Minerals",
     period: "2025 – 2026",
     description:
       "Specialization in computer networks, focusing on network security, protocols, and distributed systems architecture.",
