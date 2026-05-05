@@ -2,7 +2,7 @@ export interface Writeup {
   id: string
   title: string
   description: string
-  category: "CTF" | "Research" | "Forensics" | "Threat Hunting" | "Other"
+  category: "CTF" | "Research" | "Forensics" | "Threat Hunting" | "HTB" | "Other"
   date: string
   tags: string[]
   githubUrl?: string
@@ -45,6 +45,15 @@ const writeups: Writeup[] = [
     date: "2025-01-01",
     tags: ["threat-hunting", "ctf", "cybertalents", "ioc", "siem"],
     githubUrl: "https://github.com/qalalweh4/The-Eternel-Lore-of-Kiana",
+  },
+  {
+    id: "5",
+    title: "HTB Machines Writeups",
+    description: "Collection of HackTheBox machine writeups covering enumeration, exploitation, and privilege escalation techniques across various difficulty levels.",
+    category: "HTB",
+    date: "2025-01-01",
+    tags: ["htb", "hackthebox", "pentest", "privesc", "enumeration"],
+    githubUrl: "https://github.com/qalalweh4/HTB-Machines",
   },
 ]
 

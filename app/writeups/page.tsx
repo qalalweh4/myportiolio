@@ -14,6 +14,7 @@ const categoryGradient: Record<Writeup["category"], string> = {
   Forensics:       "from-cyan-500 to-teal-600",
   Research:        "from-blue-500 to-blue-700",
   "Threat Hunting":"from-violet-500 to-purple-700",
+  HTB:             "from-green-400 to-emerald-600",
   Other:           "from-gray-400 to-slate-600",
 }
 
@@ -22,6 +23,7 @@ const categoryDot: Record<Writeup["category"], string> = {
   Forensics:       "bg-cyan-400",
   Research:        "bg-blue-400",
   "Threat Hunting":"bg-violet-400",
+  HTB:             "bg-green-400",
   Other:           "bg-gray-400",
 }
 
