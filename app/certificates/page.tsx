@@ -4,7 +4,39 @@ import Image from "next/image"
 
 const certificates = [
   {
-    
+    name: "CRTS V2",
+    fullName: "Certified Red Team Specialist V2",
+    issuer: "CyberWarFare Labs",
+    date: "Jun 2026",
+    image: "/images/crts-v2.png",
+    credentialUrl: "https://www.credential.net/db7056b6-b07d-4506-8ecf-628f5adf28db#acc.MaFbYHUJ",
+    description: "Advanced red team operations, adversary simulation, and Active Directory attack techniques.",
+    color: "from-red-500 to-rose-500",
+    tagColor: "bg-red-500/10 text-red-300 border-red-500/20",
+  },
+  {
+    name: "CDSA",
+    fullName: "Certified Defensive Security Analyst",
+    issuer: "Hack The Box",
+    date: "Jun 2026",
+    image: "/images/cdsa.png",
+    credentialUrl: "https://www.credly.com/badges/b8e160a3-7e24-450f-ab8a-6b887c2e791a",
+    description: "Defensive security operations, SOC analysis, threat detection, and incident response.",
+    color: "from-sky-500 to-blue-500",
+    tagColor: "bg-sky-500/10 text-sky-300 border-sky-500/20",
+  },
+  {
+    name: "Dean's List",
+    fullName: "Dean's List — Outstanding Academic Achievement",
+    issuer: "KFUPM, College of Computing & Mathematics",
+    date: "Jun 2026",
+    image: "/images/kfupm-deans-list.png",
+    credentialUrl: "https://www.linkedin.com/in/abdullah-b-alqalalweh",
+    description: "Recognized for outstanding academic achievement for the 2025/2026 academic year, Term 252.",
+    color: "from-teal-500 to-cyan-500",
+    tagColor: "bg-teal-500/10 text-teal-300 border-teal-500/20",
+  },
+  {
     name: "eCTHP",
     fullName: "eLearnSecurity Certified Threat Hunting Professional",
     issuer: "INE Security",

@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { User, Shield, Network, ArrowRight, Github, Linkedin, Mail, ChevronRight } from "lucide-react"
+import { User, Shield, Network, Briefcase, ArrowRight, Github, Linkedin, Mail, ChevronRight } from "lucide-react"
 
 const stats = [
   { value: "7+", label: "Certifications" },
@@ -67,6 +67,16 @@ export default function HomePage() {
           >
             <Network className="w-4 h-4" />
             Network Security Intern · Axelerated Solutions
+            <ChevronRight className="w-3.5 h-3.5 opacity-50 group-hover:opacity-100 group-hover:translate-x-0.5 transition-all" />
+          </a>
+          <a
+            href="https://www2.deloitte.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-green-500/[0.08] border border-green-500/20 text-green-300 text-sm font-medium hover:bg-green-500/15 hover:border-green-500/35 transition-all group"
+          >
+            <Briefcase className="w-4 h-4" />
+            Cyber Intern · Deloitte
             <ChevronRight className="w-3.5 h-3.5 opacity-50 group-hover:opacity-100 group-hover:translate-x-0.5 transition-all" />
           </a>
         </div>
