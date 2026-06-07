@@ -7,7 +7,13 @@ const education = [
     period: "2025 – 2026",
     description:
       "Specialization in computer networks, focusing on network security, protocols, and distributed systems architecture.",
-    achievements: ["In Progress"],
+    achievements: [
+      "Completed",
+      "COE 444 Network Design — A",
+      "COE 446 Mobile Computing — A",
+      "COE 453 Cloud and Edge Computing — A",
+      "ICS 445 Network Management and Security — A+",
+    ],
     gradient: "from-cyan-500 to-blue-500",
     glow: "bg-cyan-500/10",
     border: "border-cyan-500/20",
