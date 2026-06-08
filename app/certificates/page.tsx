@@ -4,17 +4,6 @@ import Image from "next/image"
 
 const certificates = [
   {
-    name: "CRTS V2",
-    fullName: "Certified Red Team Specialist V2",
-    issuer: "CyberWarFare Labs",
-    date: "Jun 2026",
-    image: "/images/crts-v2.png",
-    credentialUrl: "https://www.credential.net/db7056b6-b07d-4506-8ecf-628f5adf28db#acc.MaFbYHUJ",
-    description: "Advanced red team operations, adversary simulation, and Active Directory attack techniques.",
-    color: "from-red-500 to-rose-500",
-    tagColor: "bg-red-500/10 text-red-300 border-red-500/20",
-  },
-  {
     name: "CDSA",
     fullName: "Certified Defensive Security Analyst",
     issuer: "Hack The Box",
@@ -25,6 +14,18 @@ const certificates = [
     color: "from-sky-500 to-blue-500",
     tagColor: "bg-sky-500/10 text-sky-300 border-sky-500/20",
   },
+  {
+    name: "CRTS V2",
+    fullName: "Certified Red Team Specialist V2",
+    issuer: "CyberWarFare Labs",
+    date: "Jun 2026",
+    image: "/images/crts-v2.png",
+    credentialUrl: "https://www.credential.net/db7056b6-b07d-4506-8ecf-628f5adf28db#acc.MaFbYHUJ",
+    description: "Advanced red team operations, adversary simulation, and Active Directory attack techniques.",
+    color: "from-red-500 to-rose-500",
+    tagColor: "bg-red-500/10 text-red-300 border-red-500/20",
+  },
+  
   {
     name: "Dean's List",
     fullName: "Dean's List — Outstanding Academic Achievement",
