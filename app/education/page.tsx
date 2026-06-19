@@ -9,7 +9,7 @@ const education = [
       "Specialization in computer networks, focusing on network security, protocols, and distributed systems architecture.",
     achievements: [
       "Completed",
-      "COE 444 Network Design — A",
+      "COE 444 Network Design — A+",
       "COE 446 Mobile Computing — A",
       "COE 453 Cloud and Edge Computing — A",
       "ICS 445 Network Management and Security — A+",
