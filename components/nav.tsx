@@ -23,7 +23,12 @@ export default function Nav() {
     <nav className="fixed top-0 w-full z-50 bg-[#050914]/80 backdrop-blur-xl border-b border-white/[0.06]">
       <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
         {/* Logo */}
-        
+        <Link href="/" className="flex items-center gap-2.5 group">
+          <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-blue-500 to-violet-500 flex items-center justify-center shadow-lg shadow-blue-500/25 group-hover:shadow-blue-500/40 transition-shadow">
+            <Shield className="w-4 h-4 text-white" />
+          </div>
+          <span className="font-semibold text-white hidden sm:block tracking-tight">AlQalalweh</span>
+        </Link>
 
         {/* Desktop links */}
         <div className="hidden md:flex items-center gap-1">
