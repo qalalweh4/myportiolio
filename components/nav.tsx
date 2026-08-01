@@ -26,10 +26,10 @@ export default function Nav() {
         {/* Logo */}
         <Link href="/" className="group -ml-1 p-1" aria-label="Home">
           <Image
-            src="/images/logo.png"
+            src="/images/logo-white.png"
             alt="Qalalweh"
-            width={144}
-            height={144}
+            width={288}
+            height={288}
             priority
             className="w-9 h-9 opacity-90 group-hover:opacity-100 transition-opacity duration-200"
           />

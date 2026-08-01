@@ -1,5 +1,6 @@
 import Link from "next/link"
-import { User, Shield, Network, Briefcase, ArrowRight, Github, Linkedin, Mail, ChevronRight } from "lucide-react"
+import Image from "next/image"
+import { Shield, Network, Briefcase, ArrowRight, Github, Linkedin, Mail, ChevronRight } from "lucide-react"
 
 const stats = [
   { value: "7+", label: "Certifications" },
@@ -27,9 +28,9 @@ export default function HomePage() {
       />
 
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto py-24">
-        {/* Avatar */}
-        <div className="inline-flex items-center justify-center w-28 h-28 rounded-full bg-gradient-to-br from-blue-500 via-violet-500 to-cyan-400 mb-8 shadow-2xl shadow-blue-500/30 ring-4 ring-white/10 animate-float">
-          <User className="w-14 h-14 text-white" />
+        {/* Logo */}
+        <div className="inline-flex items-center justify-center w-28 h-28 mb-8 animate-float">
+          <Image src="/images/logo.png" alt="Qalalweh" width={288} height={288} priority className="w-full h-full" />
         </div>
 
         
