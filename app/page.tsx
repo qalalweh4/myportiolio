@@ -56,7 +56,7 @@ export default function HomePage() {
             className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-green-500/[0.08] border border-green-500/20 text-green-300 text-sm font-medium hover:bg-green-500/15 hover:border-green-500/35 transition-all group"
           >
             <Briefcase className="w-4 h-4" />
-            Cyber Intern · Deloitte
+            Cyber Operate SOC Intern · Deloitte
             <ChevronRight className="w-3.5 h-3.5 opacity-50 group-hover:opacity-100 group-hover:translate-x-0.5 transition-all" />
           </a>
           <a
